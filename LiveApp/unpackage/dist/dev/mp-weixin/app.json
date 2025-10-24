@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/live/live",
+    "pages/streamer/streamer"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/live/live",
+        "iconPath": "static/icon_live.png",
+        "selectedIconPath": "static/icon_live_active.png",
+        "text": "Live"
+      },
+      {
+        "pagePath": "pages/streamer/streamer",
+        "iconPath": "static/icon_streamer.png",
+        "selectedIconPath": "static/icon_streamer_active.png",
+        "text": "Streamer"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
