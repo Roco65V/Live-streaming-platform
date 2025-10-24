@@ -19,8 +19,7 @@
             <uni-icons type="info" size="20" color="#409eff"></uni-icons>
           </view>
           <text class="tip-text">Use OBS or other streaming software to stream using the following information
-
-</text>
+		  </text>
         </view>
  
         <view class="stream-info">
@@ -140,7 +139,6 @@ export default {
       });
  
       try {
-        // 获取推流地址
         const response = await uni.request({
           url: 'http://localhost:9001/api/live/start',
           method: 'POST',
@@ -205,7 +203,6 @@ export default {
  
         const data = response.data;
         if (data.code === 0) {
-          // 停止成功，清空推流信息
           this.webrtcUrl = '';
           this.rtmpUrl = '';
           this.streamKey = '';

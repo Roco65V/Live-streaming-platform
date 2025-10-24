@@ -20,7 +20,7 @@ public class LiveStreamServiceImpl implements LiveStreamService {
     @Autowired
     private LiveStreamRepository liveStreamRepository;
 
-    @Value("${srs.server.ip:192.168.60.67}")
+    @Value("${srs.server.ip:your-srs-server-ip}")
     private String srsServerIp;
 
     @Value("${srs.app.name:live}")

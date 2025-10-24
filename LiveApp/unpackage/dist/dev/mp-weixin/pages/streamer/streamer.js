@@ -48,7 +48,7 @@ const _sfc_main = {
         }
       } catch (error) {
         common_vendor.index.hideLoading();
-        common_vendor.index.__f__("error", "at pages/streamer/streamer.vue:171", "Failed to fetch streaming information:", error);
+        common_vendor.index.__f__("error", "at pages/streamer/streamer.vue:169", "Failed to fetch streaming information:", error);
         common_vendor.index.showToast({
           title: "Failed to fetch streaming information: " + (error.errMsg || error.message),
           icon: "none",
@@ -94,7 +94,7 @@ const _sfc_main = {
         }
       } catch (error) {
         common_vendor.index.hideLoading();
-        common_vendor.index.__f__("error", "at pages/streamer/streamer.vue:223", "Failed to stop:", error);
+        common_vendor.index.__f__("error", "at pages/streamer/streamer.vue:220", "Failed to stop:", error);
         common_vendor.index.showToast({
           title: "Failed to stop: " + (error.errMsg || error.message),
           icon: "none",
@@ -115,7 +115,7 @@ const _sfc_main = {
           duration: 1e3
         });
       } catch (error) {
-        common_vendor.index.__f__("error", "at pages/streamer/streamer.vue:246", "Failed to fetch streaming information:", error);
+        common_vendor.index.__f__("error", "at pages/streamer/streamer.vue:243", "Failed to fetch streaming information:", error);
         common_vendor.index.showToast({
           title: "Refresh failed",
           icon: "none",
